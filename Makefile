@@ -36,10 +36,10 @@ else
 endif
 
 # path location for Teensy 3 core
-COREPATH = teensy3
+COREPATH = $(CURDIR)/cores/teensy3
 
 # path location for Arduino libraries
-LIBRARYPATH = libraries
+LIBRARYPATH = $(CURDIR)/libraries
 
 # path location for the arm-none-eabi compiler
 COMPILERPATH = $(TOOLSPATH)/arm/bin
